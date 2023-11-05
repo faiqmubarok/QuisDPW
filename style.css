@@ -1,0 +1,353 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ece3ce;
+}
+
+/* Navbar Style */
+
+.navbar {
+  z-index: 3;
+}
+
+* {
+  z-index: 2;
+}
+
+.accent-img {
+  z-index: 1;
+}
+
+.img-hero {
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: white;
+  color: #0b5f72;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button-secondary:hover {
+  color: white;
+  background-color: #0b5f72;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Hero Style */
+
+#hero {
+  background: linear-gradient(160deg, #0b5f72, #000);
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  height: 100%;
+}
+
+.hero-tagline h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: white;
+  color: #0b5f72;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.button-lg-primary:hover {
+  background-color: #0b5f72;
+  color: white;
+}
+
+/* About Style */
+
+.container-about {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  padding-top: 90px;
+}
+
+.abt {
+  width: 30%;
+  color: black;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  text-align: justify;
+  line-height: 30px;
+  font-size: 0.9rem;
+}
+
+.abt:hover {
+  background-color: #0b5f72;
+  color: white;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.abt h3 {
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Recomendation Style */
+.container-recomendation {
+  margin-top: 100px;
+  padding-top: 80px;
+  background: linear-gradient(160deg, #0b5f72, #121010);
+  padding-bottom: 80px;
+}
+
+.container-recomendation h2 {
+  color: white;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.wrapping {
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.rec {
+  width: 30%;
+  padding: 20px 10px;
+  background-color: white;
+  height: 450px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn.btn-primary {
+  width: 25%;
+}
+
+.btn.btn-warning {
+  width: 73%;
+}
+
+.wrapping img {
+  width: 100%;
+}
+
+/* Footer Style */
+.container-footer {
+  height: 150px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer p {
+  color: white;
+}
+
+/* CONTACT */
+.ccontainer-hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(160deg, #0b5f72, #000);
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cwrapper {
+  display: flex;
+  justify-items: center;
+  align-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.contact-text {
+  width: 40%;
+}
+
+.contact-form {
+  width: 60%;
+}
+
+.quotes {
+  margin-bottom: 30px;
+}
+
+.kontak li {
+  list-style-type: none;
+  display: flex;
+}
+
+.kontak li .fa-solid {
+  font-size: 1.5em;
+  margin-right: 10px;
+}
+
+.sosmed ul {
+  list-style: none;
+  display: flex;
+}
+
+.sosmed ul li {
+  margin-right: 30px;
+  padding-top: 10px;
+}
+
+.sosmed ul li .fa-brands {
+  font-size: 1.8em;
+}
+
+.kotak {
+  height: 100%;
+  background-color: #ece3ce;
+}
+
+.image-hero {
+  background-image: url(/asseet/background.jpg);
+  width: 100%;
+}
+
+/* Products Style */
+
+.container-products h2 {
+  font-weight: 700;
+  text-align: center;
+  color: #0b5f72;
+  margin: 50px auto;
+}
+
+.container-products {
+  margin-bottom: 50px;
+}
+
+/* Review Style */
+.container-reviewer {
+  margin: 50px auto;
+  width: 70%;
+  margin-bottom: 80px;
+}
+
+.container-reviewer h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+  color: #0b5f72;
+}
+
+.wrapper-reviewer-reverse {
+  padding: 50px 30px;
+  background-color: #0b5f72;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.person-reverse {
+  background-image: url(/asseet/person2.jpg);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  order: 1;
+}
+
+.ulasan-reverse {
+  width: 60%;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  color: white;
+}
+
+.wrapper-reviewer .ulasan h3 {
+  margin-bottom: 20px;
+}
+.wrapper-reviewer {
+  padding: 50px 30px;
+  background-color: #0b5f72;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.wrapper-reviewer img {
+  background-image: url(/asseet/person1.jpg);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-size: cover;
+  order: 2;
+}
+
+.ulasan {
+  width: 60%;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  color: white;
+}
+
+.wrapper-reviewer-reverse .ulasan-reverse h3 {
+  margin-bottom: 20px;
+}
